@@ -1,0 +1,42 @@
+0.000026 main                        (2): ALWAYS INCLUDE THE FOLLOWING LINES WHEN SENDING DEBUG MESSAGES TO THE MAILING LIST:
+0.000091 main                        (2): gphoto2 2.5.20.1
+0.000104 main                        (2): gphoto2 has been compiled with the following options:
+0.000113 main                        (2):  + gcc (C compiler used)
+0.000121 main                        (2):  + popt (mandatory, for handling command-line parameters)
+0.000129 main                        (2):  + exif (for displaying EXIF information)
+0.000137 main                        (2):  + no cdk (for accessing configuration options)
+0.000145 main                        (2):  + no aa (for displaying live previews)
+0.000153 main                        (2):  + jpeg (for displaying live previews in JPEG format)
+0.000160 main                        (2):  + readline (for easy navigation in the shell)
+0.000178 main                        (2): libgphoto2 2.5.20.1
+0.000187 main                        (2): libgphoto2 has been compiled with the following options:
+0.000195 main                        (2):  + all camlibs
+0.000203 main                        (2):  + gcc (C compiler used)
+0.000211 main                        (2):  + ltdl (for portable loading of camlibs)
+0.000218 main                        (2):  + EXIF (for special handling of EXIF files)
+0.000230 main                        (2): libgphoto2_port 0.12.0
+0.000238 main                        (2): libgphoto2_port has been compiled with the following options:
+0.000246 main                        (2):  + iolibs: disk ptpip serial usb usbdiskdirect usbscsi
+0.000254 main                        (2):  + gcc (C compiler used)
+0.000262 main                        (2):  + ltdl (for portable loading of iolibs)
+0.000270 main                        (2):  + USB (libusb0, for USB cameras)
+0.000277 main                        (2):  + serial (for serial cameras)
+0.000285 main                        (2):  + no resmgr (serial port access and locking)
+0.000293 main                        (2):  + no ttylock (serial port locking)
+0.000301 main                        (2):  + no lockdev (serial port locking)
+0.000309 main                        (2): CAMLIBS env var not set, using compile-time default instead
+0.000317 main                        (2): IOLIBS env var not set, using compile-time default instead
+0.000325 main                        (2): invoked with following arguments:
+0.000333 main                        (2):   --debug
+0.000340 main                        (2):   --debug-logfile=my-logfile.txt
+0.000386 load_settings               (2): Creating gphoto config directory ('/home/yogesh/.gphoto')
+0.000465 load_settings               (2): Loading settings from file '/home/yogesh/.gphoto/settings'.
+0.000732 gp_camera_free              (2): Freeing camera...
+0.000747 gp_port_free                (2): Freeing port...
+0.000760 gp_filesystem_reset         (2): resetting filesystem
+0.000769 gp_filesystem_lru_clear     (2): Clearing fscache LRU list...
+0.000777 gp_filesystem_lru_clear     (2): fscache LRU list already empty
+0.000785 delete_all_folders          (2): Internally deleting all folders from '/'...
+0.000795 lookup_folder               (2): Lookup folder '/'...
+0.000804 lookup_folder               (2): Found! / is 0x1057440
+0.000813 recurse_delete_folder       (2): Recurse delete folder 0x1057440//
